@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(images/accbg.jpg);
+    background-size: cover;
+}
+.form{
+    padding: 50px;
+}
+form {
+    background-color: rgb(216, 216, 216);
+    opacity: 90%;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.fields {
+    margin-bottom: 15px;
+}
+
+.fields label {
+    margin-bottom: 5px;
+    display: block;
+}
+.fields .user-type {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.fields .user-type label {
+    margin-right: 10px;
+}
+
+.fields .user-type input[type="radio"] {
+    margin-right: 5px;
+}
+
+
+.fields input[type="text"],
+.fields input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensure the padding doesn't affect the width */
+}
+
+.switch-to-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+}
+.switch-to-login p{
+    color: rgb(0, 0, 0);
+}
+
+.fields input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #150037;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.fields input[type="submit"]:hover {
+    background-color: #460096;
+}
+
+.fields .radio-options {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.fields .radio-options label {
+    margin-right: 10px;
+    display: flex; /* Make labels and radios inline */
+    align-items: center; /* Center items vertically */
+}
+
+.fields .radio-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+
+.switch-to-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+}
+.switch-to-register{
+    color: rgb(0, 0, 0);
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensure the padding doesn't affect the width */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #150037;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #460096;
+}

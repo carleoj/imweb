@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSCS Department Network - Signup</title>
+    <link rel="icon" type="image/x-icon" href="images/spaclogo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form class="form" action="connect.php" method="post">
+            <h1>Sign up</h1>
+            <div class="fields">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div class="fields">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div class="fields user-type">
+                <div class="radio-options">
+                    <label>User Type:</label>
+                    <label><input type="radio" name="user-type" value="student" required> Student</label>
+                    <label><input type="radio" name="user-type" value="teacher" required> Teacher</label>
+                </div>
+            </div>
+            
+            <input type="submit" value="Register">
+            <div class="switch-to-login">
+                <br><p>Already have an account? <a href="login.html">Switch to Login</a></p>
+        </form>
+    </div>
+</body>
+</html>
